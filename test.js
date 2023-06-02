@@ -6,9 +6,9 @@ const {google} = require('googleapis');
  * https://console.cloud.google.com/apis/credentials.
  */
 const oauth2Client = new google.auth.OAuth2(
-  "855403999908-ebps3t9l5abdfr75172742tavscd1pgk.apps.googleusercontent.com",
-  "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",
-  "https://google.com"
+  "855403999908-ebps3t9l5abdfr75172742tavscd1pgk.apps.googleusercontent.com", // Your CLIENT ID
+  "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", // Your CLIENT SECRET
+  "https://strapi.hariki.tech" // Your REDIRECT URI
 );
 
 // Access scopes for read-only Drive activity.
